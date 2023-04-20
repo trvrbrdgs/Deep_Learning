@@ -25,12 +25,12 @@ The csv provided contains 34,000 organizations that have received funding from A
 * sigmoid was used for the output layer
 * relu was used as it is robust and will yield good results, sigmoid was my attempt at caatching in extraneus data points that may have slipped through the relu activation functions
 
-[Screenshot](/images/screenshot2.png)
+![Screenshot](/images/screenshot2.png)
 
 * The first step I took to increase model performance was to run the layers with substantially lower nodes (i.e. 8 and 5, respectively). Seeing the accuracy was not sufficient I quickly worked my way up to 150 and 100 to get results that mirrored the example data. 
 
 **Summary**
-[Screenshot](/images/screenshot1.png)
+![Screenshot](/images/screenshot1.png)
 
 * Given that the accuracy was only 72%, it's hard to recommend this particular model as a strong indicator of success for organizations receiving funding from the Alphabet Soup organization. 
 
